@@ -17,7 +17,7 @@ def my_db_connector():
         return connected
 
     except Exception as e:
-        print(f"Error in conenecting to DB: {e}")
+        print(f"except mysql.connector.{e}")
         return None
     
 
